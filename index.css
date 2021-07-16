@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(131, 85, 158);
+    padding: 240px;
+}
+
+.counter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 35vh;
+    margin: 10px;
+    border-radius: 12px;
+}
+.fas{
+    margin: 12px;
+    color: white;
+}
+.counter{
+    margin: 8px;
+    font-size: 50px;
+    color: yellow;
+}
+span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    color: white;
+}
